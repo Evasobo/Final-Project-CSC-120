@@ -1,7 +1,7 @@
 +--------------------------+
 |      PirateGame.java     |  ← Main entry point
 +--------------------------+
-| - main()                |
+| - main()                 |
 +-----------+--------------+
             |
             v
@@ -18,17 +18,17 @@
      +------+-------+
      |              |
      v              v
-+-------------+   +----------------+
-|  Map.java   |   |  Puzzle.java   |  ← Riddle / logic-based puzzle
-+-------------+   +----------------+
-| - locations[]|   | - puzzleText  |
-                   | - solution     |
-| - display() |   | - isSolved()   |
-+------+------+   +----------------+
++--------------+   +----------------+
+|  Map.java    |   |  Puzzle.java   |  ← Riddle / logic-based puzzle
++--------------+   +----------------+
+| - locations[]|   | - puzzleText   |
+|              |   | - solution     |
+| - display()  |   | - isSolved()   |
++------+-------+   +----------------+
        |
        v
 +---------------------+
-|  Location.java       |  ← A cell in the map (Island, Sea, Cave...)
+|  Location.java      |  ← A cell in the map (Island, Sea, Cave...)
 +---------------------+
 | - name              |
 | - description       |
